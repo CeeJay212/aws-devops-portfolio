@@ -1,10 +1,7 @@
-# aws-devops-portfolio
+## Planned Architecture (High Level)
 
-This project demonstrates:
-- Static website hosting on AWS
-- Serverless backend (Lambda + API Gateway) 
-- Secure authentication 
-- CI/CD pipeline
-- Monitoring and cost awareness
-
-Built as a hands-on DevOps learning project.
+- Static frontend hosted on Amazon S3
+- Content delivery via CloudFront (HTTPS)
+- Serverless backend using AWS Lambda and API Gateway
+- Data store in DynamoDB
+- CI/CD using GitHub Actions
